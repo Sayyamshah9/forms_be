@@ -1,0 +1,20 @@
+let CONSTANTS = {};
+
+CONSTANTS.DB_CONSTANTS = {
+  COLLECTIONS: {
+    USERS: "Users",
+    FORM_DATA: "FormData",
+  },
+};
+
+CONSTANTS.ERROR_MSGS = {
+  INPUT_PARAMS_FAILED: "Input Params Failed",
+};
+
+CONSTANTS.STATUS_CODES = {
+  SUCCESS: 200,
+  BAD_REQUEST: 400,
+  NOT_FOUND: 404,
+};
+
+module.exports = CONSTANTS;
